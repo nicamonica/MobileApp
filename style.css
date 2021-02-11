@@ -1,3 +1,4 @@
-body {
-    background-color: #E8E8E4;
-  }
+:root {
+  /* Background of the app */
+  --ion-background-color: #E8E8E4;
+}
