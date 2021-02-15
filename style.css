@@ -2,3 +2,11 @@
   /* Background of the app */
   --ion-background-color: #E8E8E4;
 }
+
+.bg-color-header2{
+  --background: #9D9085;
+}
+
+.bg-color-main-header{
+  --background: #C2A792;
+}
