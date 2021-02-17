@@ -1,12 +1,28 @@
 :root {
   /* Background of the app */
   --ion-background-color: #E8E8E4;
+  /* avatar radius*/
+  --border-radius: 100px;
 }
 
+/*middle header color*/
 .bg-color-header2{
   --background: #9D9085;
 }
 
+/* top header color*/
+
 .bg-color-main-header{
   --background: #C2A792;
+}
+
+/* index page buttons*/
+.index-btn{
+  --background: #9D9085;
+  
+}
+
+/* nutrition page buttons*/
+.btn-nut{
+  --background: #D1A17A;
 }
