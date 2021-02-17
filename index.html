@@ -20,13 +20,26 @@
             </ion-toolbar>
         </ion-header>
 
-        <ion-button  id="btn-sProduct"><a href="product.html">Search by product</a></ion-button>
-        <ion-button  id="btn-sNutrition"><a href="nutrition.html">Nutrition Information</a></ion-button>
+        <!-- buttons for product and nutritions-->
+
+        <ion-content>
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                    <ion-button class="index-btn" size="large"><a href="product.html">Search by product</a><img src="Pictures/avocado.png" height="50" width="50"></a></ion-button>
+
+                </ion-col>
+                <ion-col>
+                    <ion-button class="index-btn" size="large"><a href="nutrition.html">Nutrition information</a><img src="Pictures/list.png" height="50" width="50"></a></ion-button>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        </ion-content>
         
         
         
     </ion-app> 
-    <script src="app.js"></script></script>
+    
 </body>
 </html>
 
